@@ -1,5 +1,13 @@
 # VBC — Vector-Based Comparison
 
+[![Vector-Based Comparison](https://img.shields.io/badge/Vector--Based%20Comparison-VBC-4C78A8)](https://github.com/vkaralis/vbc)
+[![Novel statistical method](https://img.shields.io/badge/method-novel%20statistical%20method-7A5195)](#method-in-brief)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Tests](https://github.com/vkaralis/vbc/actions/workflows/tests.yml/badge.svg)](https://github.com/vkaralis/vbc/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.3390%2Fjcdd11070185-blue)](https://doi.org/10.3390/jcdd11070185)
+[![Article](https://img.shields.io/badge/article-JCDD%2011%287%29%2C%20185-008C95)](https://doi.org/10.3390/jcdd11070185)
+
 `vbc` is a small Python implementation of Vector-Based Comparison (VBC), a method for
 decomposing clinical endpoints relative to a selected primary endpoint. It accompanies:
 
