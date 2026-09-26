@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vbc"
+version = "0.1.0"
+description = "Vector-Based Comparison for clinical trial endpoints"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Vangelis D. Karalis"}]
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["clinical-trials", "multiple-endpoints", "vector-algebra", "dimensionality-reduction"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = ["numpy>=1.23"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[project.scripts]
+vbc = "vbc.cli:main"
+
+[project.urls]
+Article = "https://doi.org/10.3390/jcdd11070185"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"

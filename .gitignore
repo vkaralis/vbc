@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+results.json
+.DS_Store
+
+# Original research material kept locally, outside the public code repository
+102_VBC.pdf
+matlab_code/
